@@ -26,33 +26,27 @@ Currently building **Trade Notebook**, a full-stack trading journal, and looking
 
 **Backend**
 
-![Node.js](https://img.shields.io/badge/Node.js-21262d?style=flat-square&logo=nodedotjs&logoColor=white)
-![Express](https://img.shields.io/badge/Express-21262d?style=flat-square&logo=express&logoColor=white)
-![REST APIs](https://img.shields.io/badge/REST%20APIs-21262d?style=flat-square&logo=fastapi&logoColor=white)
-![JWT](https://img.shields.io/badge/JWT%20Auth-21262d?style=flat-square&logo=jsonwebtokens&logoColor=white)
-![Cloudinary](https://img.shields.io/badge/Cloudinary-21262d?style=flat-square&logo=cloudinary&logoColor=white)
+<img src="https://skillicons.dev/icons?i=nodejs,express,postman&theme=dark" />
+
+Node.js · Express · REST APIs · JWT auth · bcrypt · Cloudinary uploads
 
 **Database**
 
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-21262d?style=flat-square&logo=postgresql&logoColor=white)
-![SQL](https://img.shields.io/badge/SQL-21262d?style=flat-square&logo=databricks&logoColor=white)
-![Schema Design](https://img.shields.io/badge/Schema%20Design-21262d?style=flat-square&logo=diagramsdotnet&logoColor=white)
+<img src="https://skillicons.dev/icons?i=postgres&theme=dark" />
+
+PostgreSQL · SQL · Schema design · Relations & joins
 
 **Frontend**
 
-![React](https://img.shields.io/badge/React-21262d?style=flat-square&logo=react&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-21262d?style=flat-square&logo=javascript&logoColor=white)
-![Vite](https://img.shields.io/badge/Vite-21262d?style=flat-square&logo=vite&logoColor=white)
-![Tailwind](https://img.shields.io/badge/Tailwind-21262d?style=flat-square&logo=tailwindcss&logoColor=white)
+<img src="https://skillicons.dev/icons?i=react,js,vite,tailwind,html,css&theme=dark" />
+
+React · JavaScript (ES6+) · Vite · Tailwind CSS · Responsive UI
 
 **Tools**
 
-![Git](https://img.shields.io/badge/Git-21262d?style=flat-square&logo=git&logoColor=white)
-![GitHub](https://img.shields.io/badge/GitHub-21262d?style=flat-square&logo=github&logoColor=white)
-![Postman](https://img.shields.io/badge/Postman-21262d?style=flat-square&logo=postman&logoColor=white)
-![VS Code](https://img.shields.io/badge/VS%20Code-21262d?style=flat-square&logo=visualstudiocode&logoColor=white)
+<img src="https://skillicons.dev/icons?i=git,github,vscode,npm&theme=dark" />
 
----
+Git · GitHub · VS Code · npm
 
 ## Featured Project
 
