@@ -1,12 +1,14 @@
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&height=220&color=0:0d1117,100:30363d&text=Abdullah%20Farooq&fontColor=e6edf3&fontSize=52&fontAlignY=38&animation=fadeIn&desc=Backend%20Developer&descColor=8b949e&descAlignY=58&descSize=20" />
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&height=240&color=0:0d1117,50:21262d,100:30363d&text=Abdullah%20Farooq&fontColor=e6edf3&fontSize=54&fontAlignY=36&animation=twinkling&desc=Backend%20Developer&descColor=8b949e&descAlignY=58&descSize=22" />
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=19&pause=1200&color=C9D1D9&center=true&vCenter=true&width=700&lines=Node.js+%7C+Express+%7C+PostgreSQL+%7C+React;Designing+REST+APIs+%26+relational+schemas;Secure+auth%2C+clean+architecture%2C+real+projects" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=19&pause=1000&color=C9D1D9&center=true&vCenter=true&width=760&height=45&lines=Node.js+%7C+Express+%7C+PostgreSQL+%7C+React;Built+and+deployed+Trade+Notebook%2C+a+full-stack+trading+journal;JWT+auth%2C+SQL+transactions%2C+61+automated+tests;Open+to+backend+developer+roles" />
 </p>
 
 <p align="center">
   <a href="https://www.linkedin.com/in/m-abdullah-farooq/"><img src="https://img.shields.io/badge/LinkedIn-Connect-21262d?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
-  <img src="https://img.shields.io/badge/Open%20to%20work-Backend%20Roles-21262d?style=for-the-badge&logo=githubsponsors&logoColor=white" />
+  <a href="https://trade--notebook.vercel.app/"><img src="https://img.shields.io/badge/Live%20Project-Trade%20Notebook-21262d?style=for-the-badge&logo=vercel&logoColor=white" /></a>
+  <a href="mailto:abdullah781.work@gmail.com"><img src="https://img.shields.io/badge/Email-Contact-21262d?style=for-the-badge&logo=gmail&logoColor=white" /></a>
+  <img src="https://img.shields.io/badge/Open%20to%20work-Backend%20Roles-238636?style=for-the-badge&logo=githubsponsors&logoColor=white" />
   <img src="https://komarev.com/ghpvc/?username=A8dullah-781&style=for-the-badge&color=30363d&labelColor=21262d&label=PROFILE+VIEWS" />
 </p>
 
@@ -16,9 +18,9 @@
 
 I'm a backend developer who builds the server side of web apps: designing database schemas, writing REST APIs, securing them, and connecting them to React frontends.
 
-I work with the PERN stack and prefer **PostgreSQL** because relational data stays structured and predictable as an app grows. I started on the frontend, so I understand what a client needs from an API, and I build endpoints with that in mind.
+I work with the PERN stack and prefer **PostgreSQL** because relational data stays structured and predictable as an app grows. I started on the frontend, so I know what a client needs from an API and build endpoints with that in mind.
 
-Currently building **Trade Notebook**, a full-stack trading journal, and looking for a junior Node.js / backend role.
+I built and deployed **Trade Notebook**, a full-stack trading journal, from the database schema to the live site. I'm looking for a backend developer role where I can keep building and learning on a real team.
 
 ---
 
@@ -26,15 +28,15 @@ Currently building **Trade Notebook**, a full-stack trading journal, and looking
 
 **Backend**
 
-<img src="https://skillicons.dev/icons?i=nodejs,express,postman&theme=dark" />
+<img src="https://skillicons.dev/icons?i=nodejs,express,jest&theme=dark" />
 
-Node.js · Express · REST APIs · JWT auth · bcrypt · Cloudinary uploads
+Node.js · Express · REST APIs · JWT auth · Google sign-in · bcrypt · Cloudinary uploads · Jest & Supertest
 
 **Database**
 
 <img src="https://skillicons.dev/icons?i=postgres&theme=dark" />
 
-PostgreSQL · SQL · Schema design · Relations & joins
+PostgreSQL · SQL · Schema design · Migrations · Transactions · Joins
 
 **Frontend**
 
@@ -44,24 +46,38 @@ React · JavaScript (ES6+) · Vite · Tailwind CSS · Responsive UI
 
 **Tools**
 
-<img src="https://skillicons.dev/icons?i=git,github,vscode,npm&theme=dark" />
+<img src="https://skillicons.dev/icons?i=git,github,vscode,npm,vercel&theme=dark" />
 
-Git · GitHub · VS Code · npm
+Git · GitHub · VS Code · npm · Vercel
+
+---
 
 ## Featured Project
 
 ### Trade Notebook
-A full-stack trading journal for logging and reviewing trades.
+
+A full-stack trading journal. Traders log the trades they took, and the server calculates P&L, risk:reward, profit factor, max drawdown and a discipline score, then shows them on a dashboard and a green/red day calendar.
+
+<p>
+  <a href="https://trade--notebook.vercel.app/"><img src="https://img.shields.io/badge/Live%20Demo-Open-238636?style=for-the-badge&logo=vercel&logoColor=white" /></a>
+  <a href="https://github.com/A8dullah-781/trade_notebook"><img src="https://img.shields.io/badge/Source%20Code-GitHub-21262d?style=for-the-badge&logo=github&logoColor=white" /></a>
+</p>
 
 | | |
 |---|---|
 | **Frontend** | React, Vite, Tailwind CSS |
-| **Backend** | Node.js, Express |
-| **Database** | PostgreSQL |
-| **Auth** | JWT + bcrypt |
-| **Uploads** | Cloudinary |
+| **Backend** | Node.js, Express 5 |
+| **Database** | PostgreSQL (plain SQL with `pg`, 13 migrations) |
+| **Auth** | JWT with token versioning, bcrypt, Google sign-in, email verification and password reset |
+| **Uploads** | Cloudinary (chart screenshots, avatars) |
+| **Testing** | Jest, Supertest (61 tests) |
 
-*Repo link coming soon.*
+**What's inside**
+
+- Foreign keys and row locks that enforce data ownership and block race conditions
+- Money handled in cents, days grouped by each user's timezone
+- Rate limiting, helmet, CORS and request logging
+- Route, controller and service layers with central error handling
 
 ---
 
@@ -73,13 +89,18 @@ A full-stack trading journal for logging and reviewing trades.
 </p>
 
 <p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=A8dullah-781&hide_border=true&background=0d1117&ring=8b949e&fire=e6edf3&currStreakLabel=e6edf3&currStreakNum=c9d1d9&sideNums=c9d1d9&sideLabels=8b949e&dates=8b949e" />
+  <img src="https://streak-stats.demolab.com/?user=A8dullah-781&hide_border=true&background=0d1117&ring=8b949e&fire=e6edf3&currStreakLabel=e6edf3&currStreakNum=c9d1d9&sideNums=c9d1d9&sideLabels=8b949e&dates=8b949e" />
+</p>
+
+<p align="center">
+  <img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=A8dullah-781&bg_color=0d1117&color=c9d1d9&line=8b949e&point=e6edf3&area=true&hide_border=true" />
 </p>
 
 ---
 
 <p align="center">
   <a href="https://www.linkedin.com/in/m-abdullah-farooq/"><img src="https://img.shields.io/badge/LinkedIn-m--abdullah--farooq-21262d?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
+  <a href="mailto:abdullah781.work@gmail.com"><img src="https://img.shields.io/badge/abdullah781.work@gmail.com-21262d?style=for-the-badge&logo=gmail&logoColor=white" /></a>
 </p>
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&height=100&color=0:30363d,100:0d1117&section=footer" />
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&height=100&color=0:30363d,50:21262d,100:0d1117&section=footer" />
