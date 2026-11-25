@@ -81,23 +81,6 @@ A full-stack trading journal. Traders log the trades they took, and the server c
 
 ---
 
-## GitHub Stats
-
-<p align="center">
-  <img height="170" src="https://github-readme-stats.vercel.app/api?username=A8dullah-781&show_icons=true&hide_border=true&bg_color=0d1117&title_color=e6edf3&icon_color=8b949e&text_color=c9d1d9" />
-  <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=A8dullah-781&layout=compact&hide_border=true&bg_color=0d1117&title_color=e6edf3&text_color=c9d1d9" />
-</p>
-
-<p align="center">
-  <img src="https://streak-stats.demolab.com/?user=A8dullah-781&hide_border=true&background=0d1117&ring=8b949e&fire=e6edf3&currStreakLabel=e6edf3&currStreakNum=c9d1d9&sideNums=c9d1d9&sideLabels=8b949e&dates=8b949e" />
-</p>
-
-<p align="center">
-  <img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=A8dullah-781&bg_color=0d1117&color=c9d1d9&line=8b949e&point=e6edf3&area=true&hide_border=true" />
-</p>
-
----
-
 <p align="center">
   <a href="https://www.linkedin.com/in/m-abdullah-farooq/"><img src="https://img.shields.io/badge/LinkedIn-m--abdullah--farooq-21262d?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
   <a href="mailto:abdullah781.work@gmail.com"><img src="https://img.shields.io/badge/abdullah781.work@gmail.com-21262d?style=for-the-badge&logo=gmail&logoColor=white" /></a>
